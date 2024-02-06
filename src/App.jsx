@@ -1,7 +1,12 @@
+import ActivityList from "./ActivityList";
 import "./index.css";
 
 function App() {
-  return<h4>Hello world!</h4> 
+  return (
+    <section className="px-7">
+      <ActivityList />
+    </section>
+  );
 }
 
 export default App;
